@@ -9,7 +9,8 @@ body{
     background-image: url(images/sunset-1373171__480.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: -moz-linear-gradient();
+    width: 100%;
+    overflow: hidden;
 }
 a{
     color: #fdfdfd !important;
@@ -75,4 +76,7 @@ span{
 .h-76{
     width: 100%;
     height: 60px;
+}
+.mar{
+    margin-top: 60px;
 }
